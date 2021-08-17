@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="./game.js" defer></script>
+    <title>CMPT 470 Guessing Game</title>
+</head>
+<body>
+    <h1>CMPT 470 Guessing Game</h1>
+    <h3>Rules</h3>
+    <p>There are 40 treasures hidden in this 20x20 grid. Find 20 treasures to win the game!</p>
+    <button id="reset" class="button2" onclick="resetGame()">Reset</button>
+    <button id="reveal" class="button" onclick="revealAnswer()">Reveal Answer</button>
+    <button id="clear" class="button" onclick="clearScores()">Clear Scores</button>
+    <div id="hs">High Score (20 treasures): None</div>
+    <div id="hs2">High Score (40 treasures): None</div>
+    <br />
+    <div id="score">Score: 0</div>
+    <div id="moves">Moves: 0</div>
+    <table id="game">
+    </table>
+</body>
+</html>
